@@ -8,20 +8,26 @@
 <body>
 
     <script>
+        
+        /*
         var nome = "Léo";
         var sobrenome = "Bezerra";
         var anoAtual = 2024;
         var anoNasce = 1979;
         var espaco = " ";
-
-        var nomeCompleto = nome + espaco + sobrenome;
-        alert(nomeCompleto);
-        var anoNascimento = anoAtual - anoNasce;
-        alert(anoNascimento);
-
-        /*
         var nomeCompleto = prompt("Digite seu nome:");
         */
+
+        var nome = prompt("Insira seu nome");
+        var sobrenome = prompt("Agora seu sobrenome");
+        var anoAtual = 2024;
+        var anoNasce = prompt("Seu ano de nascimento");
+        var espaco = " ";
+
+        var resultadoNomeCompleto = nome + espaco + sobrenome;
+        alert(resultadoNomeCompleto);
+        var anoNascimento = anoAtual - parseInt(anoNasce);
+        alert(anoNascimento);
 
     </script>
     
